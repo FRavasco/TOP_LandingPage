@@ -112,10 +112,71 @@ color: #8a8c8f;
 .rectangle{
     width: 150px;
     height: 150px;
-    border: 5px solid #3882f6 ;
+    border: 3px solid #3882f6 ;
     border-radius: 8px;
 }
 
 .caption{
     align-self: center;
+}
+
+/*Quote section*/
+.quote{
+    background-color: #E5E7EB;
+    padding: 80px 180px;
+    margin: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote{
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;
+color: #1F2937;
+max-width: 780px;
+display: flex;
+flex-direction: column;
+}
+.author{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self:flex-end;
+    max-width: 780px;
+}
+
+/*Call to action section*/
+.blueRect{
+    margin: 100px 50px;
+    padding: 50px 80px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: #E5E7EB;
+}
+
+.title{
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.marginB{
+    border: 2px solid #E5E7EB;
+}
+
+/* Footer section */
+
+footer{
+    text-align: center;
+    color: #E5E7EB ;
+    margin: -10px;
+    padding: 30px;
+    background-color: #1F2937;
 }
